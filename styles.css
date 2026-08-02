@@ -76,13 +76,13 @@ a { color: inherit; text-decoration: none; }
 }
 
 .gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
+  column-width: 240px;
+  column-gap: 20px;
 }
 
 .gallery-item {
-  margin: 0;
+  margin: 0 0 20px;
+  break-inside: avoid;
 }
 
 .gallery-item img {
@@ -186,7 +186,8 @@ figcaption {
   .hero { padding: 48px 24px 40px; }
   .hero h1 { font-size: 2.2rem; }
   .gallery-section, .about-section, .contact-section { padding: 40px 24px; }
-  .gallery-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; }
+  .gallery-grid { column-width: 140px; column-gap: 12px; }
+  .gallery-item { margin-bottom: 12px; }
   .about-content { grid-template-columns: 1fr; }
   .about-photo { max-width: 200px; }
 }
