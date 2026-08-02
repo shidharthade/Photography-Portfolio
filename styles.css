@@ -77,8 +77,8 @@ a { color: inherit; text-decoration: none; }
 
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
 }
 
 .gallery-item {
@@ -186,7 +186,7 @@ figcaption {
   .hero { padding: 48px 24px 40px; }
   .hero h1 { font-size: 2.2rem; }
   .gallery-section, .about-section, .contact-section { padding: 40px 24px; }
-  .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  .gallery-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 12px; }
   .about-content { grid-template-columns: 1fr; }
   .about-photo { max-width: 200px; }
 }
