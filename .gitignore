@@ -18,3 +18,6 @@ desktop.ini
 *.NEF
 *.ARW
 *.psd
+
+# Full-resolution originals (kept locally as backup, not pushed)
+images-original/

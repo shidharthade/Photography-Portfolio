@@ -2,26 +2,16 @@
 
 Live at: https://shidharthade.github.io/Photography-Portfolio/
 
-Files: `index.html`, `styles.css`, `script.js`. Gray boxes are placeholders for photos and bio content — swap them for the real thing whenever ready.
+Files: `index.html`, `styles.css`, `script.js`. Gallery is wired up with 75 photos from `images/`.
 
-## Add your own photos
+## Image folders
 
-In `index.html`, each gallery tile looks like:
+- `images/` — web-optimized copies (max ~2000px wide, ~280KB avg) used by the live site. This is the only image folder that gets pushed to GitHub.
+- `images-original/` — full camera-resolution originals, kept locally as a backup. Excluded via `.gitignore`, never pushed.
 
-```html
-<figure class="gallery-item">
-  <div class="placeholder-img"></div>
-  <figcaption>Photo 01</figcaption>
-</figure>
-```
+To add more photos: drop the full-res file in `images-original/`, create a resized/compressed copy in `images/` (same filename), then add a `<figure>` tile for it in the gallery grid in `index.html`.
 
-Replace the `<div class="placeholder-img"></div>` with:
-
-```html
-<img src="images/your-photo.jpg" alt="Description of the photo">
-```
-
-Create an `images/` folder next to `index.html`, drop your JPGs/PNGs in there, and update the `src` paths and captions. Do the same for the About section photo.
+To swap the About section photo: replace `<div class="placeholder-img about-photo"></div>` in `index.html` with an `<img>` tag pointing at a photo in `images/`.
 
 ## Update the bio text
 
