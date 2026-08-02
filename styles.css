@@ -193,6 +193,62 @@ figcaption {
   margin-bottom: 20px;
 }
 
+.legal-section {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 40px 100px;
+}
+
+.legal-section h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 40px 0 20px;
+}
+
+.legal-section h1:first-of-type {
+  margin-top: 0;
+}
+
+.legal-section h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 32px 0 10px;
+}
+
+.legal-section h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 24px 0 8px;
+}
+
+.legal-section p,
+.legal-section address {
+  color: var(--text);
+  font-style: normal;
+  margin: 0 0 14px;
+}
+
+.legal-section hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 48px 0;
+}
+
+.legal-updated {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+.legal-todo {
+  background: #fdf6e3;
+  border: 1px solid #e8d9a0;
+  border-radius: 4px;
+  padding: 16px 20px;
+  font-size: 0.9rem;
+  color: #6b5a1f;
+  margin-bottom: 40px;
+}
+
 .contact-email {
   display: inline-block;
   font-size: 1.3rem;
