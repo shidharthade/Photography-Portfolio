@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://shidharthade.github.io/Photography-Portfolio/sitemap.xml
