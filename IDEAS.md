@@ -11,7 +11,7 @@ Recommendations from a review of top photography portfolio sites (Awwwards, Them
 
 ## Structural changes (more editing, worth doing)
 
-- **Status: implemented.** Filter tabs (All / Wedding / Cars / Musicians & Bands / Events / Pilates / Motorsport) above the gallery, plus a short SEO-friendly blurb per category. Photos still need `data-category` tags as you sort them — see README "Gallery categories."
+- **Status: implemented.** Filter tabs (All / Wedding / Old Timers / Events / Motorsport) above the gallery, plus a short SEO-friendly blurb per category. Photos still need `data-category` tags as you sort them — see README "Gallery categories." (Musicians & Bands and Pilates were dropped from the category list; Cars was renamed to Old Timers.)
 - Feature 2–3 standout shots as a large full-bleed hero above the gallery grid, so the strongest work gets first billing.
 
 ## Nice-to-haves (lower priority)

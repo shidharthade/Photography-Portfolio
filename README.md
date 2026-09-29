@@ -30,7 +30,7 @@ To swap the About section photo: replace `<div class="placeholder-img about-phot
 
 ## Gallery categories
 
-The gallery has filter tabs: All, Wedding, Cars, Musicians & Bands, Events, Pilates, Motorsport. A photo shows up under a category once you tag it — add `data-category="..."` to its `<figure>` tag, e.g.:
+The gallery has filter tabs: All, Wedding, Old Timers, Events, Motorsport. A photo shows up under a category once you tag it — add `data-category="..."` to its `<figure>` tag, e.g.:
 
 ```html
 <figure class="gallery-item" data-category="wedding">
@@ -38,7 +38,7 @@ The gallery has filter tabs: All, Wedding, Cars, Musicians & Bands, Events, Pila
 </figure>
 ```
 
-Valid values: `wedding`, `cars`, `musicians`, `events`, `pilates`, `motorsport`. A photo can only carry one category right now. Untagged photos (all 75 current ones, for now) only show up under "All" — that's expected until you sort them. If a category tab has no tagged photos yet, the gallery shows a "No photos in this category yet" message instead of an empty grid.
+Valid values: `wedding`, `old-timers`, `events`, `motorsport`. A photo can only carry one category right now. Untagged photos (all 75 current ones, for now) only show up under "All" — that's expected until you sort them. If a category tab has no tagged photos yet, the gallery shows a "No photos in this category yet" message instead of an empty grid.
 
 To add a brand-new category: duplicate one of the `<button class="filter-tab" data-filter="...">` lines in the gallery section of `index.html` with a new filter name, and use that same name in photos' `data-category`.
 
