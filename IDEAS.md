@@ -24,6 +24,12 @@ Recommendations from a review of top photography portfolio sites (Awwwards, Them
 
 **Status: baseline implemented** — see README "SEO" section for what's done (meta tags, structured data, sitemap/robots.txt, image dimensions, category blurbs) and what still needs your input (location text, descriptive alt text, Google Business Profile, Search Console).
 
+## Branding
+
+**Status: implemented.** Full rebrand to "shidhartha.de MEDIA" — wordmark logo, light/dark-aware favicon set, Urbanist typeface, `#D40000` accent color, and a one-time animated hero intro (SVG "camera focus-pull," respects `prefers-reduced-motion`). See README "Branding" section for the asset list and where each thing lives. Source brand kit lives outside this repo at `D:\Side Business\shidhartha-de_brand-kit`.
+
+Note on the "deliberately not recommended" heavy-animation guidance below: the hero intro is an intentional, narrow exception — it's a single brand-defined animation that plays once on load, not an ongoing scroll/WebGL effect, and was requested as part of the brand system rather than general site embellishment.
+
 ## Deliberately not recommended
 
 - Heavy scroll animations, WebGL/3D effects, or switching platforms (Framer, Squarespace, FORMAT) — big effort/cost for a site that already works well as free static hosting. See "Animations/Framer-style UI" discussion below if this changes.

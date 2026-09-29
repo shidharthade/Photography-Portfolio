@@ -1,8 +1,23 @@
-# Shidhartha De — Photography
+# shidhartha.de MEDIA — Photography
 
 Live at: https://shidharthade.github.io/Photography-Portfolio/
 
 Files: `index.html`, `styles.css`, `script.js`. Gallery is wired up with 75 photos from `images/`.
+
+## Branding
+
+The site uses the "shidhartha.de MEDIA" brand (wordmark, favicons, colors, fonts), sourced from a separate brand kit and copied into the `brand/` folder and the repo root:
+
+- `brand/logo_wordmark.svg` — header/imprint logo (light-background wordmark variant).
+- `brand/og-image.png` — social share preview image (Open Graph/Twitter).
+- `favicon_dark-box.*` / `favicon_white-box.*` (svg/ico/png at several sizes) — favicon set that automatically switches with the visitor's light/dark mode preference (`prefers-color-scheme`), plus a universal `favicon.ico` fallback.
+- Typeface: [Urbanist](https://fonts.google.com/specimen/Urbanist) (Google Fonts), loaded site-wide.
+- Accent color: `#D40000` (Rosso corsa red) — set as the `--accent` CSS variable in `styles.css`, used on the active filter tab, the enquiry submit button, link hovers, and the contact email underline.
+- The hero section has a one-time animated "camera focus-pull" SVG intro (plays once on load, respects `prefers-reduced-motion`).
+
+To update any brand asset later (e.g. a new logo variant), replace the corresponding file in `brand/` or the favicon files at the repo root — filenames are referenced directly in `index.html` and `imprint.html`, so keep names the same or update the `<link>`/`<img>` tags accordingly.
+
+Legal note: `imprint.html`'s Impressum/Datenschutz content intentionally still uses the real legal name (not the brand name) where German law requires it — see "Imprint & Privacy page" below.
 
 ## Image folders
 
