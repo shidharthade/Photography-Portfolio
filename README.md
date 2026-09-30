@@ -2,7 +2,7 @@
 
 Live at: https://shidharthade.github.io/Photography-Portfolio/
 
-Files: `index.html`, `styles.css`, `script.js`. Gallery is wired up with 75 photos from `images/`.
+Files: `index.html`, `styles.css`, `script.js`. Gallery is wired up with 194 photos from `images/` (75 untagged + 119 tagged `old-timers`).
 
 ## Branding
 
@@ -38,7 +38,7 @@ The gallery has filter tabs: All, Wedding, Old Timers, Events, Motorsport. A pho
 </figure>
 ```
 
-Valid values: `wedding`, `old-timers`, `events`, `motorsport`. A photo can only carry one category right now. Untagged photos (all 75 current ones, for now) only show up under "All" — that's expected until you sort them. If a category tab has no tagged photos yet, the gallery shows a "No photos in this category yet" message instead of an empty grid.
+Valid values: `wedding`, `old-timers`, `events`, `motorsport`. A photo can only carry one category right now. The 75 original photos are still untagged and only show up under "All" — that's expected until you sort them. The 119 "Old Timers" shoot photos (`images/100.jpg`–`218.jpg`) are tagged `data-category="old-timers"` and appear in random order under both "All" and "Old Timers". If a category tab has no tagged photos yet, the gallery shows a "No photos in this category yet" message instead of an empty grid.
 
 To add a brand-new category: duplicate one of the `<button class="filter-tab" data-filter="...">` lines in the gallery section of `index.html` with a new filter name, and use that same name in photos' `data-category`.
 
